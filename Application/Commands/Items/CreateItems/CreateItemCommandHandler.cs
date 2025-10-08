@@ -1,6 +1,7 @@
 ﻿using Domain.Entities;
 using Infrastructure;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 
 namespace Application.Commands.Items.CreateItems;
 
@@ -15,9 +16,11 @@ public class CreateItemCommandHandler : IRequestHandler<CreateItemCommand, int>
     public async Task<int> Handle(CreateItemCommand command, CancellationToken token)
     {
 
+        var items = await _context.Item.ToListAsync(token);
+
         var item = new Item
         {
-            Id = 1,
+            Id = items.Count + 1,
             Title = command.Title,
             Description = command.Description,
             Price = command.Price,
