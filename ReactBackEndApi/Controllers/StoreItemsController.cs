@@ -23,7 +23,7 @@ namespace ReactBackEndApi.Controllers
             _mediator = mediator;
         }
 
-        [HttpGet("/Items")]
+        [HttpGet("Items")]
         public async Task<ActionResult> GetItems()
         {
             var token = new CancellationToken();
@@ -33,7 +33,7 @@ namespace ReactBackEndApi.Controllers
            
         }
 
-        [HttpGet("/Items/{id}")]
+        [HttpGet("Items/{id}")]
         public async Task<ActionResult> GetItemById([FromRoute] int id)
         {
 
@@ -43,7 +43,7 @@ namespace ReactBackEndApi.Controllers
             return Ok(result);
         }
 
-        [HttpPost("/Items")]
+        [HttpPost("Items")]
         public async Task<ActionResult> CreateItem([FromBody] GetItemRequest item)
         {
 
@@ -54,7 +54,7 @@ namespace ReactBackEndApi.Controllers
             return Ok(result);
         }
 
-        [HttpPut("/Items/{id}")]
+        [HttpPut("Items/{id}")]
         public async Task<ActionResult> UpdateItem([FromRoute] int id, [FromBody] GetItemRequest item)
         {
 
@@ -65,7 +65,7 @@ namespace ReactBackEndApi.Controllers
             return Ok(result);
         }
 
-        [HttpDelete("/Items/{id}")]
+        [HttpDelete("Items/{id}")]
         public async Task<ActionResult> DeleteItem([FromRoute] int id, [FromBody] string user)
         {
 

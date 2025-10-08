@@ -2,7 +2,6 @@
 using Application;
 using Infrastructure;
 using Microsoft.EntityFrameworkCore;
-using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +13,13 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("dev", p => p
+        .WithOrigins("http://localhost:5173", "http://127.0.0.1:5173")
+        .AllowAnyHeader()
+        .AllowAnyMethod());
+});
 var dbPath = Path.Combine(builder.Environment.ContentRootPath, "items.db");
 builder.Services.AddDbContext<StoreItemsContext>(options =>
 {
@@ -31,7 +36,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseCors("dev");
 app.UseAuthorization();
 
 app.MapControllers();
