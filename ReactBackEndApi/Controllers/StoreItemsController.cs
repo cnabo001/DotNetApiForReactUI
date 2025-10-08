@@ -48,10 +48,22 @@ namespace ReactBackEndApi.Controllers
         {
 
             var token = new CancellationToken();
+            var valdator = new CreateItemValidator();
+            var validatorResult = valdator.Validate(item);
+
+            if (!validatorResult.InValid)
+            {
+                return BadRequest(new
+                {
+                    Message = "Failed Validation",
+                    Errors = validatorResult.Errors
+                });
+            }
+
             var result = await _mediator
                 .Send(new CreateItemCommand(item.Title, item.Description, item.Price), token);
 
-            return Ok(result);
+            return Ok(new { Token = token, Result = result });
         }
 
         [HttpPut("Items/{id}")]
@@ -59,6 +71,19 @@ namespace ReactBackEndApi.Controllers
         {
 
             var token = new CancellationToken();
+
+            var valdator = new CreateItemValidator();
+            var validatorResult = valdator.Validate(item);
+
+            if (!validatorResult.InValid)
+            {
+                return BadRequest(new
+                {
+                    Message = "Failed Validation",
+                    Errors = validatorResult.Errors
+                });
+            }
+
             var result = await _mediator
             .Send(new UpdateItemCommand(id, item.Title, item.Description, item.Price, true), token);
 
