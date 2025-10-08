@@ -1,0 +1,195 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10B632AD-2700-4C2F-B95E-E1BB27E36D67}|ReactBackEndApi\\ReactBackEndApi.csproj|c:\\users\\cnabo\\source\\repos\\reactbackendapi\\reactbackendapi\\controllers\\storeitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10B632AD-2700-4C2F-B95E-E1BB27E36D67}|ReactBackEndApi\\ReactBackEndApi.csproj|solutionrelative:reactbackendapi\\controllers\\storeitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8BCBE0-22F2-4977-B553-D3C336BCA990}|Application\\Application.csproj|c:\\users\\cnabo\\source\\repos\\reactbackendapi\\application\\commands\\items\\updateitems\\updateitemvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8BCBE0-22F2-4977-B553-D3C336BCA990}|Application\\Application.csproj|solutionrelative:application\\commands\\items\\updateitems\\updateitemvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8BCBE0-22F2-4977-B553-D3C336BCA990}|Application\\Application.csproj|c:\\users\\cnabo\\source\\repos\\reactbackendapi\\application\\commands\\items\\createitems\\createitemvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8BCBE0-22F2-4977-B553-D3C336BCA990}|Application\\Application.csproj|solutionrelative:application\\commands\\items\\createitems\\createitemvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8BCBE0-22F2-4977-B553-D3C336BCA990}|Application\\Application.csproj|c:\\users\\cnabo\\source\\repos\\reactbackendapi\\application\\commands\\items\\createitems\\createitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8BCBE0-22F2-4977-B553-D3C336BCA990}|Application\\Application.csproj|solutionrelative:application\\commands\\items\\createitems\\createitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8BCBE0-22F2-4977-B553-D3C336BCA990}|Application\\Application.csproj|c:\\users\\cnabo\\source\\repos\\reactbackendapi\\application\\validation\\rulebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8BCBE0-22F2-4977-B553-D3C336BCA990}|Application\\Application.csproj|solutionrelative:application\\validation\\rulebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8BCBE0-22F2-4977-B553-D3C336BCA990}|Application\\Application.csproj|c:\\users\\cnabo\\source\\repos\\reactbackendapi\\application\\commands\\items\\createitems\\createitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8BCBE0-22F2-4977-B553-D3C336BCA990}|Application\\Application.csproj|solutionrelative:application\\commands\\items\\createitems\\createitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8BCBE0-22F2-4977-B553-D3C336BCA990}|Application\\Application.csproj|c:\\users\\cnabo\\source\\repos\\reactbackendapi\\application\\validation\\validationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8BCBE0-22F2-4977-B553-D3C336BCA990}|Application\\Application.csproj|solutionrelative:application\\validation\\validationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8BCBE0-22F2-4977-B553-D3C336BCA990}|Application\\Application.csproj|c:\\users\\cnabo\\source\\repos\\reactbackendapi\\application\\validation\\validatorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8BCBE0-22F2-4977-B553-D3C336BCA990}|Application\\Application.csproj|solutionrelative:application\\validation\\validatorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E2555AD-D591-4627-BB39-11B2588566C2}|Infrastructure\\Infrastructure.csproj|c:\\users\\cnabo\\source\\repos\\reactbackendapi\\infrastructure\\storeitemscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E2555AD-D591-4627-BB39-11B2588566C2}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\storeitemscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 219,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StoreItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\ReactBackEndApi\\Controllers\\StoreItemsController.cs",
+              "RelativeDocumentMoniker": "ReactBackEndApi\\Controllers\\StoreItemsController.cs",
+              "ToolTip": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\ReactBackEndApi\\Controllers\\StoreItemsController.cs",
+              "RelativeToolTip": "ReactBackEndApi\\Controllers\\StoreItemsController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwEYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T23:30:43.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateItemCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Application\\Commands\\Items\\CreateItems\\CreateItemCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\Items\\CreateItems\\CreateItemCommandHandler.cs",
+              "ToolTip": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Application\\Commands\\Items\\CreateItems\\CreateItemCommandHandler.cs",
+              "RelativeToolTip": "Application\\Commands\\Items\\CreateItems\\CreateItemCommandHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T23:28:18.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateItemCommand.cs",
+              "DocumentMoniker": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Application\\Commands\\Items\\CreateItems\\CreateItemCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\Items\\CreateItems\\CreateItemCommand.cs",
+              "ToolTip": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Application\\Commands\\Items\\CreateItems\\CreateItemCommand.cs",
+              "RelativeToolTip": "Application\\Commands\\Items\\CreateItems\\CreateItemCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T23:28:15.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateItemValidator.cs",
+              "DocumentMoniker": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Application\\Commands\\Items\\CreateItems\\CreateItemValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\Items\\CreateItems\\CreateItemValidator.cs",
+              "ToolTip": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Application\\Commands\\Items\\CreateItems\\CreateItemValidator.cs",
+              "RelativeToolTip": "Application\\Commands\\Items\\CreateItems\\CreateItemValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T20:27:43.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ValidationResult.cs",
+              "DocumentMoniker": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Application\\Validation\\ValidationResult.cs",
+              "RelativeDocumentMoniker": "Application\\Validation\\ValidationResult.cs",
+              "ToolTip": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Application\\Validation\\ValidationResult.cs",
+              "RelativeToolTip": "Application\\Validation\\ValidationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T23:24:12.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ValidatorBase.cs",
+              "DocumentMoniker": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Application\\Validation\\ValidatorBase.cs",
+              "RelativeDocumentMoniker": "Application\\Validation\\ValidatorBase.cs",
+              "ToolTip": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Application\\Validation\\ValidatorBase.cs",
+              "RelativeToolTip": "Application\\Validation\\ValidatorBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T23:07:23.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RuleBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Application\\Validation\\RuleBuilder.cs",
+              "RelativeDocumentMoniker": "Application\\Validation\\RuleBuilder.cs",
+              "ToolTip": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Application\\Validation\\RuleBuilder.cs",
+              "RelativeToolTip": "Application\\Validation\\RuleBuilder.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T21:03:11.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StoreItemsContext.cs",
+              "DocumentMoniker": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Infrastructure\\StoreItemsContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\StoreItemsContext.cs",
+              "ToolTip": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Infrastructure\\StoreItemsContext.cs",
+              "RelativeToolTip": "Infrastructure\\StoreItemsContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T20:59:35.578Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateItemValidator.cs",
+              "DocumentMoniker": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Application\\Commands\\Items\\UpdateItems\\UpdateItemValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\Items\\UpdateItems\\UpdateItemValidator.cs",
+              "ToolTip": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Application\\Commands\\Items\\UpdateItems\\UpdateItemValidator.cs",
+              "RelativeToolTip": "Application\\Commands\\Items\\UpdateItems\\UpdateItemValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T23:45:09.647Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
