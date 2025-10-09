@@ -19,6 +19,7 @@ namespace Application.Queries.Items.GetItemById
 
             var item = await _context.Item.FirstOrDefaultAsync(x => x.Id == request.Id, token);
 
+            response.Id = item.Id;
             response.Title = item.Title ?? null;
             response.Price = item.Price;
             response.Description = item.Description;

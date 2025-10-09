@@ -72,7 +72,7 @@ namespace ReactBackEndApi.Controllers
 
             var token = new CancellationToken();
 
-            var valdator = new CreateItemValidator();
+            var valdator = new UpdateItemValidator();
             var validatorResult = valdator.Validate(item);
 
             if (!validatorResult.InValid)
