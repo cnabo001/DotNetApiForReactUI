@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vnzAYToamjY=",
+  "dgSpecHash": "/trij8iRZmg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndAPI\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cnabo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\cnabo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

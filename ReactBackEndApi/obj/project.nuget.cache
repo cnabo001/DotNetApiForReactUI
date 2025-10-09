@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O8oEZzSdfYU=",
+  "dgSpecHash": "e8Md56Zvn8k=",
   "success": true,
-  "projectFilePath": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\ReactBackEndApi\\ReactBackEndApi.csproj",
+  "projectFilePath": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndAPI\\ReactBackEndApi\\ReactBackEndApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cnabo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\cnabo\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",

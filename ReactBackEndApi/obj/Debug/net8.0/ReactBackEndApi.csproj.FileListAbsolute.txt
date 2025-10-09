@@ -165,7 +165,6 @@ C:\Users\cnabo\source\repos\ReactBackEndApi\ReactBackEndApi\obj\Debug\net8.0\sta
 C:\Users\cnabo\source\repos\ReactBackEndApi\ReactBackEndApi\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\cnabo\source\repos\ReactBackEndApi\ReactBackEndApi\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\cnabo\source\repos\ReactBackEndApi\ReactBackEndApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\cnabo\source\repos\ReactBackEndApi\ReactBackEndApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\cnabo\source\repos\ReactBackEndApi\ReactBackEndApi\obj\Debug\net8.0\ReactBac.8027791D.Up2Date
 C:\Users\cnabo\source\repos\ReactBackEndApi\ReactBackEndApi\obj\Debug\net8.0\ReactBackEndApi.dll
 C:\Users\cnabo\source\repos\ReactBackEndApi\ReactBackEndApi\obj\Debug\net8.0\refint\ReactBackEndApi.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Contracts\\Contracts.csproj": {}
+    "C:\\Users\\cnabo\\source\\repos\\ReactBackEndAPI\\Contracts\\Contracts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Contracts\\Contracts.csproj": {
+    "C:\\Users\\cnabo\\source\\repos\\ReactBackEndAPI\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndAPI\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Contracts\\Contracts.csproj",
+        "projectPath": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndAPI\\Contracts\\Contracts.csproj",
         "packagesPath": "C:\\Users\\cnabo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Contracts\\obj\\",
+        "outputPath": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndAPI\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

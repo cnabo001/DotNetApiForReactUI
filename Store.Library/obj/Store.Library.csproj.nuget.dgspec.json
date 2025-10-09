@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Store.Library\\Store.Library.csproj": {}
+    "C:\\Users\\cnabo\\source\\repos\\ReactBackEndAPI\\Store.Library\\Store.Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Store.Library\\Store.Library.csproj": {
+    "C:\\Users\\cnabo\\source\\repos\\ReactBackEndAPI\\Store.Library\\Store.Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Store.Library\\Store.Library.csproj",
+        "projectUniqueName": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndAPI\\Store.Library\\Store.Library.csproj",
         "projectName": "Store.Library",
-        "projectPath": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Store.Library\\Store.Library.csproj",
+        "projectPath": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndAPI\\Store.Library\\Store.Library.csproj",
         "packagesPath": "C:\\Users\\cnabo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndApi\\Store.Library\\obj\\",
+        "outputPath": "C:\\Users\\cnabo\\source\\repos\\ReactBackEndAPI\\Store.Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
