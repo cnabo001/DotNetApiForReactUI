@@ -21,8 +21,9 @@ public class DeleteItemCommandHandler : IRequestHandler<DeleteItemCommand, Unit>
 
         //TODO: Add Auth config then add Hard Delete:  _context.Item.Remove(item);
         //Soft Delete
-        item.DeletedBy = command.user;
+        item.DeletedBy = "guest_client";//TODO: add auth for currentUser fetch
         item.DeletedDate = DateTime.UtcNow;
+        item.IsActive = false;
         await _context.SaveChangesAsync(token);
 
         return Unit.Value;

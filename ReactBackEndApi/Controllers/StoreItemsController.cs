@@ -91,11 +91,11 @@ namespace ReactBackEndApi.Controllers
         }
 
         [HttpDelete("Items/{id}")]
-        public async Task<ActionResult> DeleteItem([FromRoute] int id, [FromBody] string user)
+        public async Task<ActionResult> DeleteItem([FromRoute] int id)
         {
 
             var token = new CancellationToken();
-            var result = await _mediator.Send(new DeleteItemCommand(id, user), token);
+            var result = await _mediator.Send(new DeleteItemCommand(id), token);
 
             return Ok(result);
         }
