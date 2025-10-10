@@ -2,4 +2,4 @@
 
 namespace Application.Commands.Items.DeleteItems;
 
-public record DeleteItemCommand(int Id, string user) : IRequest<Unit>;
+public record DeleteItemCommand(int Id) : IRequest<Unit>;

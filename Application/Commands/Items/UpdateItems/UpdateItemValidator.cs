@@ -7,6 +7,9 @@ public class UpdateItemValidator : ValidatorBase<GetItemRequest>
 {
     public UpdateItemValidator()
     {
+        For(x => x.Id, nameof(GetItemRequest.Id))
+            .NotEmpty();
+
         For(x => x.Title, nameof(GetItemRequest.Title))
            .NotEmpty()
            .MaxLength(50);
