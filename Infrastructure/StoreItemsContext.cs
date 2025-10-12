@@ -7,7 +7,7 @@ namespace Infrastructure
     {
         public StoreItemsContext(DbContextOptions options): base(options)
         {
-            
+           
         }
         public DbSet<Item> Item { get; set; }
 
@@ -16,6 +16,12 @@ namespace Infrastructure
             modelBuilder.Entity<Item>(m =>
             {
                 m.ToTable("Item");
+                m.Property(x => x.Id)
+                 .HasColumnType("TEXT") //SQLite gotcha that does not have a GUID type 
+                 .HasConversion(
+                  x => x.ToString(),
+                  x => Guid.Parse(x)
+                  );
                 m.HasKey(x => x.Id);
                 m.Property(x => x.Title).IsRequired().HasMaxLength(50);
                 m.Property(x => x.Description).IsRequired().HasMaxLength(200);
@@ -24,6 +30,7 @@ namespace Infrastructure
                 m.Property(x => x.ConcurrencyStamp).IsRequired().IsConcurrencyToken();
                 m.HasQueryFilter(x => x.DeletedDate == null);
             });
+            
         }
 
         public override Task<int> SaveChangesAsync(CancellationToken ct = default)

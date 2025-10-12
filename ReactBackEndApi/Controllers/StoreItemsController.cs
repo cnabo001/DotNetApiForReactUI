@@ -34,7 +34,7 @@ namespace ReactBackEndApi.Controllers
         }
 
         [HttpGet("Items/{id}")]
-        public async Task<ActionResult> GetItemById([FromRoute] int id)
+        public async Task<ActionResult> GetItemById([FromRoute] Guid id)
         {
 
             var token = new CancellationToken();
@@ -67,7 +67,7 @@ namespace ReactBackEndApi.Controllers
         }
 
         [HttpPut("Items/{id}")]
-        public async Task<ActionResult> UpdateItem([FromRoute] int id, [FromBody] GetItemRequest item)
+        public async Task<ActionResult> UpdateItem([FromRoute] Guid id, [FromBody] GetItemRequest item)
         {
 
             var token = new CancellationToken();
@@ -91,7 +91,7 @@ namespace ReactBackEndApi.Controllers
         }
 
         [HttpDelete("Items/{id}")]
-        public async Task<ActionResult> DeleteItem([FromRoute] int id)
+        public async Task<ActionResult> DeleteItem([FromRoute] Guid id)
         {
 
             var token = new CancellationToken();

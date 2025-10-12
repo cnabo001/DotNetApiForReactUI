@@ -1,9 +1,12 @@
 ﻿
+using System.ComponentModel.DataAnnotations;
+
 namespace Domain.Entities
 {
     public abstract class BaseEntity
     {
-        public int Id { get; set; }
+        [Key]
+        public Guid Id { get; set; } = new Guid();
 
         //audit purposes
         public DateTime CreateDate { get; set; }

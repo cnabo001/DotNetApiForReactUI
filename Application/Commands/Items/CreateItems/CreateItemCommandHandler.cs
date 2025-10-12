@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Application.Commands.Items.CreateItems;
 
-public class CreateItemCommandHandler : IRequestHandler<CreateItemCommand, int>
+public class CreateItemCommandHandler : IRequestHandler<CreateItemCommand, Guid>
 {
     private readonly StoreItemsContext _context;
     public CreateItemCommandHandler(StoreItemsContext context)
@@ -13,14 +13,13 @@ public class CreateItemCommandHandler : IRequestHandler<CreateItemCommand, int>
         _context = context;
     }
 
-    public async Task<int> Handle(CreateItemCommand command, CancellationToken token)
+    public async Task<Guid> Handle(CreateItemCommand command, CancellationToken token)
     {
 
         var items = await _context.Item.ToListAsync(token);
 
         var item = new Item
         {
-            Id = items.Count + 1,
             Title = command.Title,
             Description = command.Description,
             Price = command.Price,

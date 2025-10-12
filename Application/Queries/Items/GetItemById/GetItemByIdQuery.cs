@@ -2,4 +2,4 @@
 using MediatR;
 
 namespace Application.Queries.Items.GetItemById;
-public record GetItemByIdQuery(int Id) : IRequest<GetItemResponse>;
+public record GetItemByIdQuery(Guid Id) : IRequest<GetItemResponse>;
