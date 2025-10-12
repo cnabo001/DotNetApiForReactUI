@@ -23,7 +23,7 @@ builder.Services.AddCors(options =>
 var dbPath = Path.Combine(builder.Environment.ContentRootPath, "items.db");
 builder.Services.AddDbContext<StoreItemsContext>(options =>
 {
-    options.UseSqlite($"Data Source={dbPath}");
+    options.UseSqlite($"Data Source={dbPath}").LogTo(Console.WriteLine, LogLevel.Information);
 });
 
 var app = builder.Build();

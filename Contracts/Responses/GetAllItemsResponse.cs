@@ -7,7 +7,7 @@ public sealed class GetAllItemsResponse
 
 public sealed class GetItemResponse
 {
-    public int Id { get; set; }         
+    public Guid Id { get; set; }         
     public string Title { get; set; } = "";
     public string Description { get; set; } = "";
     public decimal Price { get; set; }

@@ -2,7 +2,7 @@
 
 namespace Application.Commands.Items.CreateItems;
 
-public record CreateItemCommand(string Title, string Description, decimal Price) : IRequest<int>;
+public record CreateItemCommand(string Title, string Description, decimal Price) : IRequest<Guid>;
 
 
 
