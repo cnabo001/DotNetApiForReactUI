@@ -38,6 +38,18 @@ namespace ReactBackEndApi.Controllers
         {
 
             var token = new CancellationToken();
+            var validator = new GetItemByIdValidator();
+            var validatorResult = validator.Validate(id);
+
+            if (!validatorResult.IsValid)
+            {
+                return BadRequest(new
+                {
+                    Message = "Failed Validation",
+                    Errors = validatorResult.Errors
+                });
+            }
+
             var result = await _mediator.Send(new GetItemByIdQuery(id), token);
 
             return Ok(result);
@@ -51,7 +63,7 @@ namespace ReactBackEndApi.Controllers
             var valdator = new CreateItemValidator();
             var validatorResult = valdator.Validate(item);
 
-            if (!validatorResult.InValid)
+            if (!validatorResult.IsValid)
             {
                 return BadRequest(new
                 {
@@ -75,7 +87,7 @@ namespace ReactBackEndApi.Controllers
             var valdator = new UpdateItemValidator();
             var validatorResult = valdator.Validate(item);
 
-            if (!validatorResult.InValid)
+            if (!validatorResult.IsValid)
             {
                 return BadRequest(new
                 {
@@ -95,6 +107,16 @@ namespace ReactBackEndApi.Controllers
         {
 
             var token = new CancellationToken();
+            var validator = new DeleteItemValidator();
+            var validatorResult = validator.Validate(id);
+            if (!validatorResult.IsValid)
+            {
+                return BadRequest(new
+                {
+                    Message = "Failed Validation",
+                    Errors = validatorResult.Errors
+                });
+            }
             var result = await _mediator.Send(new DeleteItemCommand(id), token);
 
             return Ok(result);

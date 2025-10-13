@@ -5,6 +5,7 @@ public class RuleBuilder<T>
     private readonly ValidatorBase<T> _validator;
     private readonly Func<T, object> _propertyFunc;
     private readonly string _propertyName;
+
     public RuleBuilder(ValidatorBase<T> validator, Func<T, object> propertyFunc, string propertyName)
     {
         _validator = validator;
@@ -30,6 +31,17 @@ public class RuleBuilder<T>
     {
         _validator.Rule(x => (_propertyFunc(x).ToString()?.Length ?? 0) >= length,
             message ?? $"{_propertyName} must be more than {length} characters");
+        return this;
+    }
+
+    public RuleBuilder<T> CurrencyType(string message = null)
+    {
+        _validator.Rule(x =>
+        {
+            var value = _propertyFunc(x)?.ToString();
+            if (string.IsNullOrWhiteSpace(value)) return false;
+            return decimal.TryParse(value, out var result) && result >= 0;
+        }, message ?? $"{_propertyName} must be a valid currency amount");
         return this;
     }
 }

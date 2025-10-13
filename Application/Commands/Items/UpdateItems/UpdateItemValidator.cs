@@ -8,7 +8,7 @@ public class UpdateItemValidator : ValidatorBase<GetItemRequest>
     public UpdateItemValidator()
     {
         For(x => x.Id, nameof(GetItemRequest.Id))
-            .NotEmpty();
+            .NotEmpty("Id cannot be null");
 
         For(x => x.Title, nameof(GetItemRequest.Title))
            .NotEmpty()
