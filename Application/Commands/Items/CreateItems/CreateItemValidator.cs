@@ -15,6 +15,7 @@ public class CreateItemValidator : ValidatorBase<GetItemRequest>
             .MaxLength(200);
 
         For(x => x.Price, nameof(GetItemRequest.Price))
-            .NotEmpty();
+            .NotEmpty("Price Cannot Be Null")
+            .CurrencyType("Price must be in 0.00 format");
     }
 }

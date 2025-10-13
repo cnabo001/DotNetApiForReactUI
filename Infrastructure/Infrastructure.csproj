@@ -23,7 +23,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
     <ProjectReference Include="..\Contracts\Contracts.csproj" />
-    <ProjectReference Include="..\Store.Library\Store.Library.csproj" />
   </ItemGroup>
 
 </Project>

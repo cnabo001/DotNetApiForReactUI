@@ -19,6 +19,11 @@ namespace Application.Queries.Items.GetItemById
 
             var item = await _context.Item.FirstOrDefaultAsync(x => x.Id == request.Id, token);
 
+            if (item == null)
+            {
+                throw new Exception("There is no record that exist from your request");
+            }
+
             response.Id = item.Id;
             response.Title = item.Title ?? null;
             response.Price = item.Price;

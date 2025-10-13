@@ -17,7 +17,7 @@ public class DeleteItemCommandHandler : IRequestHandler<DeleteItemCommand, Unit>
     {
         var item = await _context.Item.FirstOrDefaultAsync(x => x.Id == command.Id);
 
-        if (item == null) { throw new Exception(); }
+        if (item == null) { throw new Exception("There is no record that exist from your request"); }
 
         //TODO: Add Auth config then add Hard Delete:  _context.Item.Remove(item);
         //Soft Delete
