@@ -8,17 +8,17 @@ public class UpdateItemValidator : ValidatorBase<GetItemRequest>
     public UpdateItemValidator()
     {
         For(x => x.Id, nameof(GetItemRequest.Id))
-            .NotEmpty("Id cannot be null");
+            .NotEmpty("Id");
 
         For(x => x.Title, nameof(GetItemRequest.Title))
-           .NotEmpty()
+           .NotEmpty("Title")
            .MaxLength(50);
 
         For(x => x.Description, nameof(GetItemRequest.Description))
-            .NotEmpty()
+            .NotEmpty("Description")
             .MaxLength(200);
 
         For(x => x.Price, nameof(GetItemRequest.Price))
-            .NotEmpty();
+            .NotEmpty("Price");
     }
 }

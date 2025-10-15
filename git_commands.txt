@@ -1,0 +1,6 @@
+Remove-Item -Recurse -Force .vs
+Get-ChildItem -Recurse -Directory -Include bin, obj | Remove-Item -Recurse -Force
+git add .gitignore
+git add .
+git commit -m
+git push
