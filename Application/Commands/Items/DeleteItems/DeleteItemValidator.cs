@@ -7,6 +7,6 @@ public class DeleteItemValidator: ValidatorBase<Guid>
     public DeleteItemValidator()
     {
         For(x => x, nameof(DeleteItemValidator))
-            .NotEmpty("Id cannot be empty");
+            .NotEmpty("Id");
     }
 }

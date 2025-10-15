@@ -7,15 +7,15 @@ public class CreateItemValidator : ValidatorBase<GetItemRequest>
     public CreateItemValidator()
     {
         For(x => x.Title, nameof(GetItemRequest.Title))
-            .NotEmpty()
+            .NotEmpty("Title")
             .MaxLength(50);
 
         For(x => x.Description, nameof(GetItemRequest.Description))
-            .NotEmpty()
+            .NotEmpty("Description")
             .MaxLength(200);
 
         For(x => x.Price, nameof(GetItemRequest.Price))
-            .NotEmpty("Price Cannot Be Null")
-            .CurrencyType("Price must be in 0.00 format");
+            .NotEmpty("Price")
+            .CurrencyType("Price");
     }
 }
